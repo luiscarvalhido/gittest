@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 28, 2018, 3:33:16 PM
+    Author     : luis
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Garamond, Baskerville, "Barskerville Old Face", "Hoefler Text",
+        "Times Nez Roman", serif;
+    font-size: 17px;
+    color: coral;
+    line-height: 1.6;
+}
+
+
+/*#fullscreen{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+        url('../img/back.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}*/
+
+#particles-js{
+   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+        url('../img/man.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+#particles-js h1{
+    font-size: 50px;
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    font-weight: 200;
+    color: aquamarine;
+}
